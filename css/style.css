@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/* 3. 클래스 선택자 */
+.logo {
+	text-align: center;   /* 텍스트-정렬: 가로 가운데 */
+	margin: 0;	/* (바깥)여백: 값 */
+	padding: 50px 0; /* (안)여백: 위,아래 10 좌우 0 여백 */
+}
+/* CSS의 규칙이 하나의 요소에 충돌했을때 우선 순위를 결정하는 방법 */
+.nav {
+	background-color: #005891;
+	font-size: 14px;		/* 문자-크기: 14픽셀 */
+	font-weight: bold;		/* 문자-두께: 두껍게 */
+	padding: 10px 0;		/* (안)여백: 상하 10, 좌우 0 */
+
+}
+.nav ul {
+	text-align: center;	
+}
+.nav li { /* ul.nav : 종속 선택자 , (공백) : 후손/자손 선택자 */
+	display: inline; /* inline-block 차이를 알자! */
+	margin: 0 10px; /* (바깥) 여백: 값 */
+}
+.nav a {
+	color: white;
+}
+.nav a:hover {	/* hand over => hover */
+	color: #fcff00;
+}
+
+.promotion {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.official {
+	width: 600px; 
+	margin: 50px auto;
+	font-size: 0;
+}
+.social {
+	text-align: center;
+	margin: 50px 0
+}
+/* 4. 아이디 선택자 */
+
+/* 5. 그룹 선택자 */
+.official h1, .official p {
+	text-align: center;
+}
+.title {
+	margin: 0; 
+}
+h1, h2, p {
+	text-align: center;
+	margin: 30px 0;
+}
+/* 6. 의사 선택자 */
+
+/* 7. 자손(=후손) 선택자 */
+.official h1 {
+	font-size: 22px;
+}
+.official p {
+	font-size: 16px;
+	margin: 10px 0 20px; /* (바깥)여백: 상10 좌우0 하20픽셀 */
+}
+.official h1 {
+	margin: 0;
+}
