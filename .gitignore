@@ -1,5 +1,6 @@
 # 폴더 무시
 META-INF/
+WEB-INF/
 
 # 파일 무시
 *.zip
