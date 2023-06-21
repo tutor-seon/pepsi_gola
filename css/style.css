@@ -67,3 +67,62 @@ h1, h2, p {
 .official h1 {
 	margin: 0;
 }
+
+
+/* ================ brand style : css 주석문 =================== */
+.main {
+	margin: 0 5%;
+}
+.promotion img {
+	width: 100%; /* 가로폭: (뷰포트) 넘지않게 100% */
+	object-fit: cover; /* 객체-비율: 알맞게 조정 */
+}
+.story {
+	display: flex; /* 표시 : 플렉스 (플레스 아이템이 가로로 배치된다) */
+	justify-content: center;
+	gap:0 38px; /* 간격: 상하 좌우 */
+}
+.story_text p {
+	text-align: left; /* 텍스트-정렬: 왼쪽 정렬 */
+	margin: 0;
+}
+.value_data ul { /* 모든 ul을 선택하는 특성 */
+	display: flex;
+	justify-content: space-between; /* 공간-사이사이: 모든 항목에 일정한 공간 */	
+}
+.value_data h2 {
+	font-size: 22px;		/* 문자-크기: 22픽셀(기본:16픽셀) */
+	font-weight: normal;	/* 문자-두께: 보통 */
+}
+.value_data p {
+	font-size: 40px;	
+}
+.family_items {
+	display: flex;
+	justify-content: space-between;
+}
+.family_items img {
+	width: 80%;
+	object-fit: cover;
+}
+.partners_list {
+	display: flex;
+	justify-content: space-around;	
+}
+ul {
+	list-style-type: none;  /* 목록-스타일-기호: 없음 */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
